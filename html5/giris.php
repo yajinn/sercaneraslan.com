@@ -1,11 +1,11 @@
-				<h1>HTML5 Giriş - Intro</h1>
-				<p>HTML5, Yeni HTML Standartıdır. HTML5 öğrenmek için HTML/XHTML biliyor olmanız gerekmektedir, öğrenmek için <a href="/xhtml.php">tıklayınız.</a></p>
+                <h1>HTML5 Giriş - Intro</h1>
+                <p>HTML5, Yeni HTML Standartıdır. HTML5 öğrenmek için HTML/XHTML biliyor olmanız gerekmektedir, öğrenmek için <a href="/xhtml.php">tıklayınız.</a></p>
                 <p>Bir önce ki versiyon olan HTML 4.01 , 1999'da gelmişti. O tarihten bu yana Web'te pek çok şey değişti. HTML5 hala geliştirilmeye devam ediyor, buna rağmen gelişmiş tarayıcılar yeni HTML5 elemanlarını ve API'sini desteklemektedir.</p>
                 <h2>HTML5 Nasıl Başladı?</h2>
                 <p>HTML5, World Wide Web Consortium (W3C) ile  Web Hypertext Application Technology Working Group (WHATWG) işbirliğidir. WHATWG, web formları ve uygulamalar üzerinde çalışıyordu.W3C ise XHTML 2.0 üzerinde çalışıyordu. 2006'da  HTML'in yeni bir sürümünü yaratmak için işbirliği yapmayı kararlaştırdılar.</p>
                 <p>HTML5 için bazı kurallar belirlendi:</p>
-               	<ul>
-                	<li>Yeni özellikler HTML , CSS , DOM ve JavaScript tabanlı olmalı.</li>
+                <ul>
+                    <li>Yeni özellikler HTML , CSS , DOM ve JavaScript tabanlı olmalı.</li>
                     <li>Dış eklentiler için ihtiyaç azaltılmalı (Flash gibi).</li>
                     <li>Hatalar daha iyi yakalanabilmeli.</li>
                     <li>Script yazmak yerine daha fazla HTML kullanılmalı.</li>
@@ -14,27 +14,27 @@
                 </ul>
                 <h2>HTML5 &lt;!DOCTYPE&gt;</h2>
                 <p>HTML5 'te sadece bir <! Doctype> bildirimi vardır ve kullanımı çok basittir.</p>
-				<pre><code class="language-javascript">&lt;!DOCTYPE html&gt;</code></pre>
-				<h2>Minimum HTML5 Dökümanı</h2>
+                <pre><code class="language-javascript">&lt;!DOCTYPE html&gt;</code></pre>
+                <h2>Minimum HTML5 Dökümanı</h2>
                 <p>Aşağıda basit bir HTML5 belgesi için gerekli olan tag'leri (etiketleri) görüyorsunuz.</p>
                 
                 <pre><code class="language-javascript">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;Dökümanın Başlığı&lt;/title&gt;
-	&lt;/head&gt;
+    &lt;head&gt;
+        &lt;title&gt;Dökümanın Başlığı&lt;/title&gt;
+    &lt;/head&gt;
 
-	&lt;body&gt;
-		Dökümanın içeriği...…
-	&lt;/body&gt;
+    &lt;body&gt;
+        Dökümanın içeriği...…
+    &lt;/body&gt;
 
 &lt;/html&gt;
                 </code></pre>       
         
-				<h2>HTML5 için Tarayıcı Desteği</h2>
-				<p>HTML5 'in henüz resmi bir standartı yoktur ve tarayıcıların hiçbirinde tam HTML5 desteği yoktur yani kısmen desteklemektedirler. Ama bütün gelişmiş tarayıcılar (Opera, Firefox, Safari, Chrome ve Internet Explorer'ın son sürümü) en son sürümlerine yeni HTML5 özelliklerini eklemeye devam etmektedirler.</p>
+                <h2>HTML5 için Tarayıcı Desteği</h2>
+                <p>HTML5 'in henüz resmi bir standartı yoktur ve tarayıcıların hiçbirinde tam HTML5 desteği yoktur yani kısmen desteklemektedirler. Ama bütün gelişmiş tarayıcılar (Opera, Firefox, Safari, Chrome ve Internet Explorer'ın son sürümü) en son sürümlerine yeni HTML5 özelliklerini eklemeye devam etmektedirler.</p>
 
-				<h2>Yeni Semantik / Yapı Elemanları</h2>
+                <h2>Yeni Semantik / Yapı Elemanları</h2>
                 <ul>
                     <li>&lt;article&gt; : Makale, deneme tarzı yazıları kapsar.</li>
                     <li>&lt;aside&gt; : Ana içerikten ayrı yazılan kısımdır.</li>
@@ -57,7 +57,7 @@
                     <li>&lt;section&gt; : Sitelerin ana içerik kısmını içine alır.</li>
                     <li>&lt;time&gt; : Tarih, saat verilerini kapsar.</li>
                     <li>&lt;wbr&gt; : Olası bir satır sonu tanımlar.</li>
-               	</ul>
+                </ul>
                 <h3>Yeni Medya Elemanları</h3>
                     <ul>
                         <li>&lt;audio&gt; : Sayfaya Ses oynatıcı bir modül ekler.</li>
@@ -95,6 +95,6 @@
                         <li>&lt;strike&gt;</li>
                         <li>&lt;tt&gt;</li>
                     </ul>
-				<!-- #pages_content_tip_div -->
-				<a href="/html5/index.php?page=video" class="nextButton">Devam Et</a>
+                <!-- #pages_content_tip_div -->
+                <a href="/html5/index.php?page=video" class="nextButton">Devam Et</a>
                 <!-- #nextButton -->

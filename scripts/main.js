@@ -9,26 +9,26 @@ Prism.languages.css={comment:/\/\*[\w\W]*?\*\//g,atrule:/@[\w-]+?(\s+.+)?(?=\s*{
 Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/("|')(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,"boolean":/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&lt;|=?&gt;|={1,2}|(&amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&&Prism.languages.insertBefore("markup","tag",{script:{pattern:/(&lt;|<)script[\w\W]*?(>|&gt;)[\w\W]*?(&lt;|<)\/script(>|&gt;)/ig,inside:{tag:{pattern:/(&lt;|<)script[\w\W]*?(>|&gt;)|(&lt;|<)\/script(>|&gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
 /* Responsive Design */
 $(document).ready(function() {
-	var switched = true;
-	var responsive = function() {
-		var width = $(window).width();
-		if (switched && width < 1000) {
-			$('header p').after('<span>Menü</span>');
-			switched = false;
-		};
-		if (width <= 950) {
-			$('pre').css('width',width -50);
-			$('aside span').css('width',width - 30);
-		}else{
-			$('pre, aside span').css('width','auto');
-		}
-		$('header span').click(function() {
-			$('header ul').toggleClass('block');
-		});
-		$('aside span').click(function() {
-			$('aside ul').toggleClass('block');
-		});
-	};
-	responsive();
-	$(window).bind("resize", responsive);
+    var switched = true;
+    var responsive = function() {
+        var width = $(window).width();
+        if (switched && width < 1000) {
+            $('header p').after('<span>Menü</span>');
+            switched = false;
+        };
+        if (width <= 950) {
+            $('pre').css('width',width -50);
+            $('aside span').css('width',width - 30);
+        }else{
+            $('pre, aside span').css('width','auto');
+        }
+        $('header span').click(function() {
+            $('header ul').toggleClass('block');
+        });
+        $('aside span').click(function() {
+            $('aside ul').toggleClass('block');
+        });
+    };
+    responsive();
+    $(window).bind("resize", responsive);
 });

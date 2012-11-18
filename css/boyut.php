@@ -1,6 +1,6 @@
-				<h1>CSS Boyut - Dimension</h1>
-				<p>Yükseklik (height) ve Genişlik (width) boyut özellikleri bir elemanın/etiketin boyut kontrolünü sağlar. Tüm boyut özelliklerine aşağıdaki tablodan ulaşabilirsiniz. </p>
-				<table>
+        <h1>CSS Boyut - Dimension</h1>
+        <p>Yükseklik (height) ve Genişlik (width) boyut özellikleri bir elemanın/etiketin boyut kontrolünü sağlar. Tüm boyut özelliklerine aşağıdaki tablodan ulaşabilirsiniz. </p>
+        <table>
                     <tr>
                         <th>Özellik</th>
                         <th>Açıklama</th>
@@ -47,13 +47,13 @@
                           length<br />
                           %<br /></td>
                     </tr>
-				</table>					
-				<p>Değerleri açıklayalım.</p>
-				<ul>
-					<li><strong>auto</strong> = auto özelliği kullanıldığında mesafeyi tarayıcı/browser kendi ayarlayacaktır.</li>
-					<li><strong>length</strong> = Piksel (px), em , cm ve benzeri uzunluk ölçüleri kullanılabilir.</li>
-					<li><strong>%</strong> = Yüzde kullanımı vardır.</li>
-					<li><strong>none</strong> = Değer yok anlamındadır.</li>
-				</ul>
-				<a href="/css/index.php?page=gorunurluk" class="nextButton">Devam Et</a>
+        </table>          
+        <p>Değerleri açıklayalım.</p>
+        <ul>
+          <li><strong>auto</strong> = auto özelliği kullanıldığında mesafeyi tarayıcı/browser kendi ayarlayacaktır.</li>
+          <li><strong>length</strong> = Piksel (px), em , cm ve benzeri uzunluk ölçüleri kullanılabilir.</li>
+          <li><strong>%</strong> = Yüzde kullanımı vardır.</li>
+          <li><strong>none</strong> = Değer yok anlamındadır.</li>
+        </ul>
+        <a href="/css/index.php?page=gorunurluk" class="nextButton">Devam Et</a>
         <!-- #nextButton -->

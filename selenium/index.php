@@ -1,5 +1,5 @@
 <?php
-	include ("../app/functions/functions.php");
+    include ("../app/functions/functions.php");
 // Selenium <title> etiketleri
     $titles = array (
         "selenium_ide"                     => "IDE Nedir ?",
@@ -12,7 +12,7 @@
     );
 // Title Yazıyoruz.
     $pageTitleRoot = "Sercan Eraslan - Selenium ";
-	$pageTitle = $titles[$_GET['page']];
+    $pageTitle = $titles[$_GET['page']];
 // Header'a kadar olan HTML'i sayfaya ekliyor.
     mainheader($pageTitleRoot, $pageTitle, $addTag, $subPage);
 ?>

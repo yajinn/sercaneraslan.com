@@ -1,25 +1,25 @@
 <?php
-	include ("../app/functions/functions.php");
+    include ("../app/functions/functions.php");
 // HTML5 <title> etiketleri
     $titles = array (
         "giris"                     => "Giriş",
-        "video"                		=> "Video",
-        "audio"        				=> "Audio",
+        "video"                     => "Video",
+        "audio"                     => "Audio",
         "dragAndDrop"               => "Drag and Drop",
-        "canvas"                   	=> "Canvas",
-        "inlineSVG"              	=> "Inline SVG",
+        "canvas"                    => "Canvas",
+        "inlineSVG"                 => "Inline SVG",
         "geolocation"               => "Geolocation",
         "webStorage"                => "Web Storage",
         "applicationCache"          => "Application Cache",
         "webWorkers"                => "Web Workers",
-        "SSE"                 		=> "Server Sent Events",
-        "yeniInput"               	=> "Input Tipleri",
-        "yeniForm"               	=> "Form Elemanları",
+        "SSE"                       => "Server Sent Events",
+        "yeniInput"                 => "Input Tipleri",
+        "yeniForm"                  => "Form Elemanları",
         "formOzellikleri"           => "Form Özellikleri"
     );
 // Title Yazıyoruz.
     $pageTitleRoot = "Sercan Eraslan - HTML5 ";
-	$pageTitle = $titles[$_GET['page']];
+    $pageTitle = $titles[$_GET['page']];
 // Header'a kadar olan HTML'i sayfaya ekliyor.
     mainheader($pageTitleRoot, $pageTitle, $addTag, $subPage);
 ?>

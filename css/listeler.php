@@ -1,6 +1,6 @@
-				<h1>CSS Listeler - Lists</h1>
+                <h1>CSS Listeler - Lists</h1>
                 <p>Sıralı veya Sırasız listelere ( ol - ul ) stil vermek için <strong>" list-style-type "</strong> özelliğini kullanacağız. Bu özellik için aşağıdaki değerleri kullanabiliriz. </p>
-				<h2>CSS Sıralı Liste için Değerler ( Ol )</h2>	
+                <h2>CSS Sıralı Liste için Değerler ( Ol )</h2>  
                 <table>
                     <tr>
                         <th style="width:30%">Değer</th>
@@ -51,13 +51,13 @@
                         <td>Büyük Harflerden Oluşan Roman Alfabesi  (I, II, III, IV, V, vb.)</td>
                     </tr>
                 </table>
-				<p><strong>Örnek kullanımı görelim...</strong> </p>
-				<pre><code class="language-css">
+                <p><strong>Örnek kullanımı görelim...</strong> </p>
+                <pre><code class="language-css">
 ul {
     list-style-type: lower-alpha;
 }
                 </code></pre>
-				<!-- #CSS Sıralı Liste için Değerler -->
+                <!-- #CSS Sıralı Liste için Değerler -->
                 <h2>CSS Sırasız Liste için Değerler ( Ul )</h2>
                 <table>
                     <tr>
@@ -81,28 +81,28 @@ ul {
                         <td>Madde başlarında siyah kare ikon çıkarır.</td>
                     </tr>                
                 </table>
-				<p><strong>Örnek kullanımı görelim...</strong> </p>
-				<pre><code class="language-css">
+                <p><strong>Örnek kullanımı görelim...</strong> </p>
+                <pre><code class="language-css">
 ul {
     list-style-type: circle;
 }
                 </code></pre>
-				<!-- #CSS Sırasız Liste için Değerler -->
+                <!-- #CSS Sırasız Liste için Değerler -->
                 <h2>CSS Listelere Madde Görseli Ekleme</h2>
-				<p>Sırasız Liste ( Ul ) için verilen değerler yetersiz geldiyse <strong>"list-style-image "</strong> özelliği tam size göre. Bu özellik ile madde ikonunun yerine görsel kullanabilirsiniz. Örnek kodu görelim.</p>
-				<pre><code class="language-css">
+                <p>Sırasız Liste ( Ul ) için verilen değerler yetersiz geldiyse <strong>"list-style-image "</strong> özelliği tam size göre. Bu özellik ile madde ikonunun yerine görsel kullanabilirsiniz. Örnek kodu görelim.</p>
+                <pre><code class="language-css">
 ul {
     list-style-image: url('ornek.jpg');
 }
                 </code></pre>
-				<!-- #CSS Listelere Madde Görseli Ekleme -->
+                <!-- #CSS Listelere Madde Görseli Ekleme -->
                 <h2>CSS Liste Kısa Kod Kullanımı</h2>
-				<p>Liste kodlarını yazarken bazı kodları kısaltabiliriz. Örneğin "list-style" yazıp diğer özellikleri arka arkaya bir boşluk bırakarak sıralayabiliriz ve url alanında ki tırnak işaretlerini kullanmayabiliriz.</p>
-				<pre><code class="language-css">
+                <p>Liste kodlarını yazarken bazı kodları kısaltabiliriz. Örneğin "list-style" yazıp diğer özellikleri arka arkaya bir boşluk bırakarak sıralayabiliriz ve url alanında ki tırnak işaretlerini kullanmayabiliriz.</p>
+                <pre><code class="language-css">
 ul {
     list-style: lower-alpha url('ornek.jpg');
 }
-                </code></pre>		
-				<!-- #CSS Liste Kısa Kod Kullanımı -->
+                </code></pre>       
+                <!-- #CSS Liste Kısa Kod Kullanımı -->
                 <a href="/css/index.php?page=tablolar" class="nextButton">Devam Et</a>
                 <!-- #nextButton -->

@@ -1,5 +1,5 @@
 <?php
-	include ("../app/functions/functions.php");
+    include ("../app/functions/functions.php");
 // XHTML <title> etiketleri
     $titles = array (
         "giris"             => "Giriş",
@@ -22,7 +22,7 @@
     );
 // Title Yazıyoruz.
     $pageTitleRoot = "Sercan Eraslan - XHTML ";
-	$pageTitle = $titles[$_GET['page']];
+    $pageTitle = $titles[$_GET['page']];
 // Header'a kadar olan HTML'i sayfaya ekliyor.
     mainheader($pageTitleRoot, $pageTitle, $addTag, $subPage);
 ?>
