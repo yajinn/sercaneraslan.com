@@ -1,0 +1,169 @@
+#cssSyntax {
+	height: 150px;
+	background: url('/images/syntax.jpg') no-repeat 0 50%;
+}
+#cssBoxModel {
+	width: 540px;
+	height: 300px;
+	margin: 0 auto;
+	background: url('/images/boxModel.jpg') no-repeat 0 50%;
+}
+.cssBackground {
+	border: 1px #DBDBDB solid;
+	background: url('/images/cssBackground.jpg') no-repeat center right;
+	padding-left: 10px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+}
+#paragrafStilim {
+    color:blue;
+}
+
+.paragrafStilim {
+    color:blue;
+}
+
+.table1 {
+	color:#ffffff;
+	text-align:center;
+}
+
+.table2 {
+	color:gray;
+	text-align:center;
+}
+
+.tableStyle {
+	border:1px solid #C3C3C3; 
+	border-collapse:collapse; 
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:30px;
+}
+
+.tableStyle th {
+	background-color:#d2d2d1; 
+	border:1px solid #C3C3C3; 
+	padding:3px; 
+	vertical-align:top;
+}
+
+.tableStyle td  {
+	border:1px solid #C3C3C3; 
+	padding:3px;
+	vertical-align:top;
+}
+
+.exampleBorder {
+	border: 3px double #EE7621; 
+	padding: 15px;
+}
+
+.exampleBorder1 {
+	border: 1px dotted #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder2{
+	border: 1px solid #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder3{
+	border: 3px double #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder4{
+	border: 5px groove #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder5{
+	border: 5px ridge #EE7621;
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder6{
+	border: 5px inset #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder7{
+	border: 5px outset #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.exampleBorder8{
+	border: 1px dashed #EE7621; 
+	padding: 5px;
+	text-align:center;
+	font-family:Tahoma; 
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.saydamArkaplan {
+  	background: url('/images/portakal.jpg') no-repeat;
+  	border: 1px dotted #000;
+ }
+.saydamKutu {
+	margin: 10px;
+	border: 1px solid #000;
+	background-color: #FFF;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.saydamKutu p {
+	margin: 25px;
+	font-weight: 700;
+}
+  
+.spriteBir {
+	list-style:none;
+	width:20px;
+	height:23px;
+	padding-top:12px;
+	background:url('/images/sprite.jpg') no-repeat 0 0;
+}
+
+.spriteIki {
+	list-style:none;
+	width:20px;
+	height:20px;
+	padding-top:5px;
+	background:url('/images/sprite.jpg') no-repeat 0 -67px;
+}
+
+.spriteBir a, .spriteIki a {
+	padding-left:30px;
+}
