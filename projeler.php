@@ -21,7 +21,7 @@
                     <li>
                         <h2>Selightbox</h2>
                         <p>Javascript ve CSS ile yazılmış hızlı çalışan bir lightbox.</p>
-                        <p><a href="http://skatersercan.github.com/selightbox/">Selightbox</a> / <a href="https://github.com/skatersercan/selightbox">Github</a></p>
+                        <p><a href="http://skatersercan.github.com/Selightbox/">Selightbox</a> / <a href="https://github.com/skatersercan/selightbox">Github</a></p>
                     </li>
                     <li>
                         <h2>Selider</h2>
