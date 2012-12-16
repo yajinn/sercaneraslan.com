@@ -15,13 +15,18 @@
                     </li>
                     <li>
                         <h2>Genius</h2>
-                        <p>HTML5, CSS3 ve JavaScript ile yazılmış bir oyundur.</p>
+                        <p>HTML5, CSS3 ve JavaScript ile yazılmış bir oyun.</p>
                         <p><a href="http://skatersercan.github.com/Genius/">Genius</a> / <a href="https://github.com/skatersercan/Genius">Github</a></p>
                     </li>
                     <li>
                         <h2>Selightbox</h2>
-                        <p>Javascript ve CSS ile yazılmış hızlı çalışan bir lightbox'tır.</p>
+                        <p>Javascript ve CSS ile yazılmış hızlı çalışan bir lightbox.</p>
                         <p><a href="http://skatersercan.github.com/selightbox/">Selightbox</a> / <a href="https://github.com/skatersercan/selightbox">Github</a></p>
+                    </li>
+                    <li>
+                        <h2>Selider</h2>
+                        <p>Javascript ve CSS ile yazılmış pratik bir slider.</p>
+                        <p><a href="http://skatersercan.github.com/Selider/">Selider</a> / <a href="https://github.com/skatersercan/Selider">Github</a></p>
                     </li>
                 </ul>
             </section>
