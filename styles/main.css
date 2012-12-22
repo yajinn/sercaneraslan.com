@@ -239,35 +239,34 @@ footer p a {
 #aboutMe {
     height: 375px;
     padding-top: 225px;
-    background: url('../images/socialCube.jpg') no-repeat 600px 145px;
 }
-#aboutMe h1 {
-    margin-left: 200px;
+#aboutMe h1, #aboutMe h2 {
+    text-align: center;
 }
 #aboutMe h2 {
     font-weight: 500;
-    margin: 10px 0 50px 161px;
+    margin-top: 10px;
 }
 #aboutMe ul {
-    margin-left: 70px;
+    width: 330px;
+    margin: 30px auto;
 }
-#aboutMe ul li {
+#aboutMe li {
     margin-left: 30px;
     float: left;
-    background: url('../images/social.png') no-repeat;
+    background: url('../images/icons.png') no-repeat;
 }
-#aboutMe ul li a {
+#aboutMe a {
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 30px;
+    width: 30px;
     text-indent: -9999px;
 }
-#aboutMe ul li:nth-child(1) { background-position: 0 0; }
-#aboutMe ul li:nth-child(2) { background-position: 0 -35px; }
-#aboutMe ul li:nth-child(3) { background-position: 0 -71px; }
-#aboutMe ul li:nth-child(4) { background-position: 0 -106px; }
-#aboutMe ul li:nth-child(5) { background-position: 0 -141px; }
-#aboutMe ul li:nth-child(6) { background-position: 0 -177px; }
+#aboutMe li:nth-child(1) { background-position: 0 5px; }
+#aboutMe li:nth-child(2) { background-position: 0 -25px; }
+#aboutMe li:nth-child(3) { background-position: 0 -58px; }
+#aboutMe li:nth-child(4) { background-position: 0 -92px; }
+#aboutMe li:nth-child(5) { background-position: 0 -127px; }
 
 #xhtml, #css, #html5, #selenium, #ajax, #web {
     min-height: 600px;
@@ -302,23 +301,25 @@ footer p a {
     height: 550px;
     height: auto !important;
     padding: 50px 10px 0 10px;
-    color: #5A5A5A;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #projeler li {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #projeler h2 {
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    font-size: 19px;
-    border-bottom: 1px solid #EEEEEE;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: normal;
+    -moz-border-radius: 5px 5px 0 0; 
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 #projeler p {
+    color: #5A5A5A;
     font-size: 15px;
     font-weight: 200;
-    line-height: 30px;
-    margin-bottom: 5px;
+    line-height: 20px;
+    padding: 10px;
 }
 .tip, .cup, .note {
     margin: 30px 0;
@@ -346,18 +347,18 @@ footer p a {
 }
 
 /* Color, Border, Radius, Degrade */
-header p a, nav li, nav a, th, footer span, nav span:first-child, aside ul li a:hover, .nextButton {
+header p a, nav li, nav a, th, footer span, nav span:first-child, aside ul li a:hover, .nextButton, #projeler h2 {
     color: #FFF;
 }
-aside, th, td, .tip, .cup, .note {
+aside, th, td, .tip, .cup, .note, #projeler li {
     border: 1px solid #DBDBDB;
 }
-header ul, nav li, aside, aside span, aside ul li a:hover, #html5 article, .nextButton, .tip, .note, .cup, .example {
+header ul, nav li, aside, aside span, aside ul li a:hover, #html5 article, .nextButton, .tip, .note, .cup, .example, #projeler li {
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px; 
     border-radius: 5px;
 }
-th, .nextButton { 
+th, .nextButton, #projeler h2 { 
     background: #6A6D72;
     background: -moz-linear-gradient(#6A6D72, #3E4147);
     background: -webkit-linear-gradient(#6A6D72, #3E4147);
@@ -400,24 +401,6 @@ th, .nextButton {
         float: left;
         line-height: 8px;
         background-position: 5px 7px;
-    }
-    #aboutMe {
-        background: none;
-    }
-    #aboutMe h1 {
-        text-align: center;
-        margin: 0;
-    }
-    #aboutMe h2 {
-        text-align: center;
-        margin: 10px 0 60px 0;
-    }
-    #aboutMe ul {
-        width: 250px;
-        margin: 0 auto;
-    }
-    #aboutMe ul li {
-        margin: 0 0 0 7px;
     }
 }
 @media screen and (max-width: 780px) {
