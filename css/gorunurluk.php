@@ -1,6 +1,6 @@
 				<h1>CSS Görünürlük &amp; Görüş - Display &amp; Visibility</h1>
 				<p><strong>CSS</strong> ile bir etiketin/elemanın görünmesini engelleyebiliriz ya da gizlenmesini sağlayabiliriz.</p>
-				<h2>CSS Elemenanının Gizlenmesi - display: none yada visibility: hidden</h2>
+				<h2>CSS Elemenanının Gizlenmesi - display: none ya da visibility: hidden</h2>
 				<p>Elemanları gizlemenin iki yolu vardır, <strong>display: none</strong> veya <strong>visibility: hidden</strong> .</p>
 				<p>Bu iki özellik birbirinden farklıdır, <strong>visibility: hidden</strong> sadece görünmez olmasını sağlar, elemanın özellikleri olduğu gibi durur.</p>
 				<pre><code class="language-css">
@@ -15,7 +15,7 @@
 }
 				</code></pre>
 				<!-- #CSS Elemenanının Gizlenmesi -->
-                <h2>CSS Görünürlük - Blok ve Inline Elemanı / Display - Block and Inline Elements</h2>
+                <h2>CSS Görünürlük - Blok ve Inline Elemanlar / Display - Block and Inline Elements</h2>
 				<p>Bir etikete/elemana <strong>display: block</strong> özelliği tanımlarsak etiket alabildiğine genişler ve etiketin hem üst satırına hemde alt sanırına bir <strong>&lt;br /&gt;</strong>  etiketi koymuş gibi görüntü sağlar.</p>					
 				<p>Örnek block elemanlarını görelim: </p>
 				<ul>
@@ -31,7 +31,7 @@
 				</ul>
                 <!-- #CSS Görünürlük -->
 				<h2>Değişen bir eleman nasıl görüntülenir - Changing How an Element is Displayed</h2>
-				<p>Bir öğenin display <strong>CSS</strong> 'ini <strong>"inline"</strong> veya <strong>"block"</strong> olarak degiştirerek, Web standartlarının dışına çıkmadan tasarımda için güzel çözümler bulabilirsiniz.</p>
+				<p>Bir öğenin display <strong>CSS</strong> 'ini <strong>"inline"</strong> veya <strong>"block"</strong> olarak degiştirerek, Web standartlarının dışına çıkmadan tasarımda güzel çözümler bulabilirsiniz.</p>
 				<p>Aşağıdaki örnek, liste elemanlarını <strong>"inline"</strong> olarak göstermektedir: </p>
 				<pre><code class="language-css">
 li {

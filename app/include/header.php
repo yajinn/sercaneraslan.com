@@ -21,6 +21,7 @@
                 <ul>
                     <li><a href="/hakkimda.php">Hakkımda</a></li>
                     <li><a href="/projeler.php">Projeler</a></li>
+                    <li><a href="/ebook.php">eBook</a></li>
                     <li><a href="/xhtml.php">XHTML</a></li>
                     <li><a href="/css.php">CSS</a></li>
                     <li><a href="/html5.php">HTML5</a></li>

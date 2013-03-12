@@ -1,7 +1,7 @@
                 <h1>XHTML Geçerli Kod Yazmak - Valid Code</h1>
                 <p> Geçerli bir kodumuzun olması için şimdiye kadar yazılanların hepsini uygulamış olmamız gerekir. Şimdiye kadar öğrendiklerimize ek olarak aşağıda ki maddeleri sıralayabiliriz. </p>
                 <ul>
-                    <li>Etiketlere" inline " CSS kodu yazmamalıyız. ( style="backgroung-color:blue;" gibi. )</li>
+                    <li>Etiketlere" inline " CSS kodu yazmamalıyız. ( style="background-color:blue;" gibi. )</li>
                     <li>Olabildiğince az kodlama yapararak çalışmalıyız, gereksiz kod yazmaktan kaçınmalıyız.</li>
                     <li>XHTML kodumuz ne kadar temiz ve düzenli gözükürse o kadar güzel olur. ( Sayfa girintilemeye ve kod düzenine dikkat etmeliyiz.) </li>
                     <li>Herşeyi gruplamalıyız. Örneğin, Sayfamızı yazmaya başlarken sayfamızda büyük bir div (container) oluşturmalıyız ve onun içinde çalışmaya başlamalıyız. O div içinde bir üst bölüm (header) oluşturmalıyız ve bir de alt bölüm (footer) oluşturmalıyız. Sayfamızın içeriğini ise orta bölüm içinde kodlamalıyız. </li>

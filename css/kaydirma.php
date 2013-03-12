@@ -7,18 +7,13 @@
 }
                 </code></pre>
                 <h2>CSS Clear Özelliği - Clear Property</h2>
-                <p> <strong>float</strong> özelliği verilen elemandan sonra ki yazılan içeriklerde/kodlarda kaymalar yaşanabilmektedir. Bu sebeple <strong>float</strong> kullanımından sonra <strong>clear: both;</strong> özelliği kullanılabilir. <strong>clear: both;</strong> özelliği bir <strong>div</strong> 'e stil olarak verilmelidir. </p>
-                <p> CSS Kodu: </p>
+                <p> <strong>float</strong> özelliği verilen elemandan sonra ki yazılan içeriklerde/kodlarda kaymalar yaşanabilmektedir. Bu sebeple <strong>float</strong> kullanımından sonra <strong>clear: both;</strong> özelliği kullanılabilir. Genelde, kod düzgün yazıldığında bu özelliğe ihtiyaç olmaz. :before veya :after özellikleri ile kullanılması önerilir.</p>
+                <p> Örnek olarak görelim. </p>
                 <pre><code class="language-css">
 .floatTemizle {
     clear: both; 
 }
                 </code></pre>
-                <p> HTML/XHTML Kodu: </p> 
-                <!-- CSS Clear Özelliği -->
-                <pre><code class="language-javascript">
-&lt;div class="floatTemizle"&gt; &lt;/div&gt;
-                </code></pre>
-                <p>Not: Eğer düzgün bir şekilde kodlama yaparsanız, <strong>clear: both;</strong> özelliğini kullanmanıza gerek kalmaz. Eğer bu özelliği kullanmak zorunda kalırsanız kodunuzu tekrar gözden geçirmeniz gerekmektedir.</p>
+
                 <a href="/css/index.php?page=sozde_siniflar" class="nextButton">Devam Et</a>
                 <!-- #nextButton -->

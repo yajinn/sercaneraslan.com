@@ -1,6 +1,6 @@
                 <h1>CSS Sprite Görsel - Image Sprites</h1>
                 <p>Sayfamızda ki görsellerin (butonlar,logolar,ikonlar vs.) tümünü veya bir kısmını tek görselde birleştirmeye <strong>Sprite / Çoklu Görsel</strong> deniliyor. Sayfamızda ki her görselin ayrı ayrı yüklenmesi fazla zaman alabilmektedir, bu nedenle <strong>Sprite Görsel</strong> kullanımı bize hız kazandıracaktır. <strong>Sprite Görsel</strong> sunucu isteklerinin sayısını azaltır ve bant genişliği tasarrufu da sağlar.  </p>
-                <p>Görsellerin (butonlar,logolar,ikonlar vs.) sağında veya solunda metin olacaksa yani inline eleman ise <strong>Sprite Görsel</strong> imizde ki görseller alt alta olmalıdır. Eğer görsellerin (butonlar,logolar,ikonlar vs.) sağında veya solunda metin olmayacaksa yani block eleman ise <strong>Sprite Görsel</strong> imiz yan yana olmalıdır.</p>
+                <p>İhtiyacınıza göre görselleri alt alta veya yan yana birleştirebilirsiniz.</p>
                 <p>Aşağıda ki tek parça olan sprite görseli nasıl kullanacağımızı görelim...</p>        
                 <img src="/images/sprite.jpg" alt="spritegörsel"/>
                 <p>CSS kodu: </p>
@@ -23,7 +23,7 @@ a {
     padding-left: 50px;
 } 
                 </code></pre>
-                <p> <strong>background</strong> özelliği içinde verilmiş olan değişik bir değer görüyoruz ( background: url('../../images/sprite.jpg') no-repeat <strong> 0 -62px;</strong>  ). Bu bir kombine CSS kullanımıdır (Sıfır değerlerinde px , % , em vb kullanımlara gerek yoktur.). Aslında orada ki kullanım şu anlama gelmektedir:  <strong>background-position:  0 -62px;</strong>. Bu kullanımı hatırlamak için <a href="/css/index.php?page=arkaplanlar">buraya</a> tıklayabilirsiniz.  </p>
+                <p> <strong>background</strong> özelliği içinde verilmiş olan değişik bir değer görüyoruz ( background: url('/images/sprite.jpg') no-repeat <strong> 0 -62px;</strong>  ). Bu bir kombine CSS kullanımıdır (Sıfır değerlerinde px , % , em vb kullanımlara gerek yoktur.). Aslında orada ki kullanım şu anlama gelmektedir:  <strong>background-position:  0 -62px;</strong>. Bu kullanımı hatırlamak için <a href="/css/index.php?page=arkaplanlar">buraya</a> tıklayabilirsiniz.  </p>
                 <p>HTML/XHTML kodu: </p>
                 <pre><code class="language-css">
 &lt;ul&gt; 

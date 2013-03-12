@@ -36,7 +36,7 @@
                 <p> <strong>Bu kodu tarayıcıda görmek için <a href="test/test6.html" >tıklayınız.</a> </strong> </p>
                 <!-- #XHTML Satır Sonu - Br Etiketi ( Br Tag )-->
                 <h2> XHTML Pre Etiketi - Pre Tag</h2>
-                <p> XHTML , sayfalarda arka arkaya 2 boşluk kullanılmasına imkan vermiyor yada enter tuşuna basıldığında bir alt satıra geçmesine imkan vermiyor ama XHTML onuda düşünüyor ve bize <strong>"&lt;pre&gt;"</strong> etiketini armağan ediyor.</p>
+                <p>XHTML, sayfalarda arka arkaya 2 boşluk kullanılmasına ya da enter tuşuna basıldığında bir alt satıra geçmesine imkan vermiyor ama <strong>"&lt;pre&gt;"</strong> etiketi ile bu mümkün.</p>
                 <p> <strong>Örnek olarak görelim...</strong> </p>
                 <pre><code class="language-javascript">
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;

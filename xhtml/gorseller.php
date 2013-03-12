@@ -1,7 +1,7 @@
                 <h1>XHTML Görseller - Images</h1>
                 <p> Sayfamıza bir görsel eklemek için <strong>" &lt;img/&gt; "</strong> etiketini kullanacağız. Bu etiket açıldığı gibi kapanır. Bir web sayfasından yada server'dan görsel ekleyeceksek <strong>" src "</strong> yani source (kaynak) özniteliğini kullanmamız gerekmektedir. Ayrıca görselin yüklenemediği durumlar için mutlaka <strong>" alt "</strong> özniteliğini kullanmamız gerekir, bu kod içerisine "Yüklemedi" ya da benzeri şeyler yazabiliriz.</p> 
                     <div class="note"> 
-                        <p> <strong>Not:</strong> " &lt;img&gt; " etiketi "p", "h1", "h2", "h3", "h4", "h5", "h6", "div", "pre", "address", "fieldset", "ins", "del" gibi etiketler içinde kullanılmaıldır. Aksi takdirde kodumuz hata verecektir.</p>
+                        <p> <strong>Not:</strong> " &lt;img/&gt; " etiketi "p", "h1", "h2", "h3", "h4", "h5", "h6", "div", "pre", "address", "fieldset", "ins", "del" gibi etiketler içinde kullanılmalıdır. Aksi takdirde kodumuz hata verecektir.</p>
                     </div>      
                 <p> Eğer mouse ile fotoğraf üzerine geldiğimizde yazı ya da bilgi çıksın istiyorsak <strong>" title "</strong> özniteliğini kullanabiliriz. " alt " özniteliğini Internet Explorer tarayıcıları <strong>" title "</strong> olarak yorumlamaktadır. </p>
                     <div class="note"> 
