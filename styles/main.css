@@ -50,7 +50,6 @@ nav li {
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     cursor: pointer;
     text-align: center;
-    background: url('../images/menu.png') 130px 0;
     -webkit-transform-origin: 25% 90%;
     -moz-transform-origin: 25% 90%;
     -o-transform-origin: 25% 90%;
@@ -62,15 +61,16 @@ nav li {
     -ms-transition : -ms-transform 700ms ease 0s;
     transition: transform 700ms ease 0s;
 }
-nav li:nth-child(1) { background-color: #EA2A29; box-shadow: -1px 1px 1px rgba(0,0,0,0.1); }
-nav li:nth-child(2) { background-color: #F16729; box-shadow: -2px 2px 1px rgba(0,0,0,0.1); }
-nav li:nth-child(3) { background-color: #F89322; box-shadow: -3px 3px 2px rgba(0,0,0,0.2); }
-nav li:nth-child(4) { background-color: #FFCF14; box-shadow: -4px 4px 4px rgba(0,0,0,0.2); }
-nav li:nth-child(5) { background-color: #FFEA0D; box-shadow: -5px 5px 6px rgba(0,0,0,0.3); }
-nav li:nth-child(6) { background-color: #87B11D; box-shadow: -6px 6px 8px rgba(0,0,0,0.3); }
-nav li:nth-child(7) { background-color: #008253; box-shadow: -7px 7px 10px rgba(0,0,0,0.4); }
-nav li:nth-child(8) { background-color: #3277B5; box-shadow: -8px 8px 12px rgba(0,0,0,0.4); }
-nav li:nth-child(9) { background-position: 0 -125px; box-shadow: -12px 12px 20px rgba(0,0,0,0.6); }
+nav li:nth-child(1) { background: #EA2A29; box-shadow: -1px 1px 1px rgba(0,0,0,0.1); }
+nav li:nth-child(2) { background: #F16729; box-shadow: -2px 2px 1px rgba(0,0,0,0.1); }
+nav li:nth-child(3) { background: #F89322; box-shadow: -3px 3px 2px rgba(0,0,0,0.2); }
+nav li:nth-child(4) { background: #FFCF14; box-shadow: -4px 4px 4px rgba(0,0,0,0.2); }
+nav li:nth-child(5) { background: #FFEA0D; box-shadow: -5px 5px 6px rgba(0,0,0,0.3); }
+nav li:nth-child(6) { background: #87B11D; box-shadow: -6px 6px 8px rgba(0,0,0,0.3); }
+nav li:nth-child(7) { background: #008253; box-shadow: -7px 7px 10px rgba(0,0,0,0.4); }
+nav li:nth-child(8) { background: #3277B5; box-shadow: -8px 8px 12px rgba(0,0,0,0.4); }
+nav li:nth-child(9) { background: #4C549F; box-shadow: -9px 9px 14px rgba(0,0,0,0.4); }
+nav li:nth-child(10) { background: #504946; box-shadow: -5px 12px 20px rgba(0,0,0,0.6); }
 nav li:last-child:after {
     content: '';
     height: 20px;

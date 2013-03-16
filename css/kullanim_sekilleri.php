@@ -59,7 +59,7 @@
                 <!-- #CSS Etiket İçinde Stil Kullanımı -->
                 <div class="tip">  
                     <h1>CSS İpucu - Birden Fazla Kullanım Şekli Kullanılırsa Ne Olur?</h1>
-                    <p>Eğer dosyalarımızda 3 kullanım şeklide varsa öncelik " Harici Kullanım " şeklinde (External Style Sheet) olacak ve daha sonra da öncelik " Dahili Kullanım " şeklinde (Internal Style Sheet) olacak. En son öncelikte " Etiket İçinde " ki (Inline Style) kullanım şeklinde olacak. Daha öncede belirttiğimiz gibi biz sadece " Harici Kullanım " şeklini (External Style Sheet) kullanacağız.</p>
+                    <p>Eğer dosyalarımızda 3 kullanım şeklide varsa öncelik " Etiket İçinde " (Inline Style) olacak ve daha sonra da öncelik " Dahili Kullanım " şeklinde (Internal Style Sheet) olacak. En son öncelikte " Harici Kullanım " şeklinde (External Style Sheet) şeklinde olacak. Daha öncede belirttiğimiz gibi biz sadece " Harici Kullanım " şeklini (External Style Sheet) kullanacağız.</p>
                 </div>
                 <a href="/css/index.php?page=seciciler" class="nextButton">Devam Et</a>
                 <!-- #nextButton -->

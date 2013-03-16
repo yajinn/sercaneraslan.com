@@ -14,6 +14,7 @@
                     <li><a href="html5.php">HTML5</a></li>
                     <li><a href="css.php">CSS</a></li>
                     <li><a href="xhtml.php">XHTML</a></li>
+                    <li><a href="/eBook.php">EBOOK</a></li>
                     <li><a href="/projeler.php">PROJELER</a></li>
                     <li><a href="hakkimda.php">HAKKIMDA</a></li>
                     <li>
