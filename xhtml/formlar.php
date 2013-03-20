@@ -221,10 +221,10 @@
             &lt;legend&gt; Bu etiket hoşunuza gitti mi?&lt;/legend&gt;
 
             Evet
-            &lt;input name=&quot;yes&quot; type=&quot;radio&quot; value=&quot;yes&quot;/&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;yesOrNo&quot; value=&quot;yes&quot;/&gt;
             
             Hayır
-            &lt;input name=&quot;no&quot; type=&quot;radio&quot; value=&quot;no&quot;/&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;yesOrNo&quot; value=&quot;no&quot;/&gt;
         &lt;/fieldset&gt;
         
     &lt;/body&gt;

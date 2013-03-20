@@ -10,7 +10,7 @@
         <meta name="robots" content="index,follow"/>
         <title><?php echo $pageTitleRoot . " " . $pageTitle; ?></title>
         <link rel="shortcut icon" href="/images/favicon.gif" />
-        <link rel="stylesheet" href="/styles/main.css" type="text/css" />
+        <link rel="stylesheet" href="/styles/main.css?v=1" type="text/css" />
         <script type="text/javascript" src="/scripts/main.js"></script>
         <?php echo $addTag; ?>
     </head>
