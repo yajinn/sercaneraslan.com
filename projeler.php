@@ -16,22 +16,22 @@
                     <li>
                         <h2>Genius</h2>
                         <p>HTML5, CSS3 ve JavaScript ile yazılmış bir oyun.</p>
-                        <p><a href="http://skatersercan.github.com/Genius/">Genius</a> / <a href="https://github.com/skatersercan/Genius">Github</a></p>
+                        <p><a href="http://sercaneraslan.github.io/Genius/">Genius</a> / <a href="https://github.com/sercaneraslan/Genius">Github</a></p>
                     </li>
                     <li>
                         <h2>Haller.js</h2>
                         <p>İsimlerin hal ve iyelik eklerini bulan JavaScript kütüphanesi.</p>
-                        <p><a href="http://skatersercan.github.com/Haller.js/">Haller.js</a> / <a href="https://github.com/skatersercan/Haller.js">Github</a></p>
+                        <p><a href="http://sercaneraslan.github.io/Haller.js/">Haller.js</a> / <a href="https://github.com/sercaneraslan/Haller.js">Github</a></p>
                     </li>
                     <li>
                         <h2>Selightbox</h2>
                         <p>Javascript ve CSS ile yazılmış hızlı çalışan bir lightbox.</p>
-                        <p><a href="http://skatersercan.github.com/Selightbox/">Selightbox</a> / <a href="https://github.com/skatersercan/selightbox">Github</a></p>
+                        <p><a href="http://sercaneraslan.github.io/Selightbox/">Selightbox</a> / <a href="https://github.com/sercaneraslan/Selightbox">Github</a></p>
                     </li>
                     <li>
                         <h2>Selider</h2>
                         <p>Javascript ve CSS ile yazılmış pratik bir slider.</p>
-                        <p><a href="http://skatersercan.github.com/Selider/">Selider</a> / <a href="https://github.com/skatersercan/Selider">Github</a></p>
+                        <p><a href="http://sercaneraslan.github.io/Selider/">Selider</a> / <a href="https://github.com/sercaneraslan/Selider">Github</a></p>
                     </li>
                 </ul>
             </section>
