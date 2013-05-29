@@ -11,7 +11,7 @@
                 <h2>Senior Front-End Developer</h2>
                 <ul>
                     <li><a href="mailto:info@sercaneraslan.com" title="İletişim">İletişim</a></li>
-                    <li><a href="http://www.linkedin.com/in/seraslan" title="LinkedIn">LinkedIn</a></li>
+                    <li><a href="https://linkedin.com/in/seraslan" title="LinkedIn">LinkedIn</a></li>
                     <li><a href="https://github.com/sercaneraslan" title="Github">Github</a></li>
                     <li><a href="https://bitbucket.org/sercaneraslan" title="Bitbucket">Bitbucket</a></li>
                     <li><a href="https://twitter.com/sercan_eraslan" title="Twitter">Twitter</a></li>
