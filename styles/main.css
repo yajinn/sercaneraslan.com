@@ -300,7 +300,7 @@ footer p a {
     min-height: 550px;
     height: 550px;
     height: auto !important;
-    padding: 50px 10px 0 10px;
+    padding: 50px 10px 5px 10px;
     color: #5A5A5A;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

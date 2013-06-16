@@ -33,6 +33,11 @@
                         <p>Javascript ve CSS ile yazılmış pratik bir slider.</p>
                         <p><a href="http://sercaneraslan.github.io/Selider/">Selider</a> / <a href="https://github.com/sercaneraslan/Selider">Github</a></p>
                     </li>
+                    <li>
+                        <h2>Wordify.js</h2>
+                        <p>İnsanlar tarafından okunabilen isimler üretir.</p>
+                        <p><a href="http://sercaneraslan.github.io/Wordify.js/">Wordify.js</a> / <a href="https://github.com/sercaneraslan/Wordify.js">Github</a></p>
+                    </li>
                 </ul>
             </section>
             <!-- #projeler -->
