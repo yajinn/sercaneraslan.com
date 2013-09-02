@@ -1,4 +1,8 @@
 <?php
+
+// Hatalari gosterme
+error_reporting(0);
+
 // Alt sayfalar için path
 $subPage = "../";
 // Header'a kadar olan HTML'i sayfaya ekliyor.
